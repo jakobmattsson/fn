@@ -1,9 +1,10 @@
-{ "name": "jake"
-, "version": "0.0.1"
-, "author": "Jakob Mattsson <jakob@burtcorp.com> (http://www.jakobmattsson.se)"
-, "repository": {
-    "type": "git"
-  , "url": "https://github.com/jakobmattsson/fn.git"
-  }
-, "preferGlobal": true
+{
+  "name": "fn",
+  "description": "Coming soon..",
+  "keywords": ["functional", "util"],
+  "homepage": "https://github.com/jakobmattsson/fn",
+  "author": "Jakob Mattsson <jakob@burtcorp.com> (http://www.jakobmattsson.se)",
+  "main": "fn.js",
+  "repository": { "type": "git", "url": "https://github.com/jakobmattsson/fn.git" },
+  "version": "0.0.1"
 }
