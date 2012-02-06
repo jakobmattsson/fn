@@ -6,5 +6,5 @@
   "author": "Jakob Mattsson <jakob@burtcorp.com> (http://www.jakobmattsson.se)",
   "main": "fn.js",
   "repository": { "type": "git", "url": "https://github.com/jakobmattsson/fn.git" },
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
