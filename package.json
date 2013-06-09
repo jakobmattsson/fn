@@ -1,10 +1,20 @@
 {
   "name": "fn",
-  "description": "Coming soon..",
+  "version": "0.2.0",
+  "description": "Functions for your higher-order functions",
   "keywords": ["functional", "util"],
   "homepage": "https://github.com/jakobmattsson/fn",
-  "author": "Jakob Mattsson <jakob@burtcorp.com> (http://www.jakobmattsson.se)",
-  "main": "fn.js",
+  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (http://www.jakobmattsson.se)",
+  "main": "src/fn.js",
   "repository": { "type": "git", "url": "https://github.com/jakobmattsson/fn.git" },
-  "version": "0.1.0"
+  "scripts": {
+    "coverage": "jscov src .cov && JSCOV=.cov mocha --reporter mocha-term-cov-reporter spec/*.js",
+    "test": "mocha spec/*.js"
+  },
+  "devDependencies": {
+    "jscov": "0.5.3",
+    "mocha": "1.10.0",
+    "mocha-term-cov-reporter": "0.1.0",
+    "should": "1.2.2"
+  }
 }

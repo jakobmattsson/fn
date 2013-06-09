@@ -1,4 +1,4 @@
-var fn = exports.fn = function(name, f) {
+var fn = module.exports = function(name, f) {
   if (typeof name == 'function') {
     f = name;
     name = null;
